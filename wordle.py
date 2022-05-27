@@ -34,7 +34,6 @@ wordlist=open("wordlist.txt","r")
 rawwordlist=wordlist.read()
 wordlist.close()
 wordlist=rawwordlist.split("\n")
-# print(len(wordlist))
 
 pw=1
 for word in wordlist:
@@ -62,7 +61,6 @@ for word in wordlist:
                     break
             if pw==1:
                 possible.append(word)
-# print(possible)
 print(len(possible))
 
 scores=[z,0,q,0,j,0,x,0,k,1,v,1,b,2,p,3,y,3,g,3,f,3,w,3,m,3,u,4,c,4,l,5,d,5,r,6,h,6,s,7,n,7,i,8,o,8,a,9,t,10,e,11]
