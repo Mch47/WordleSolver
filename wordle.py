@@ -25,9 +25,9 @@ x="x"
 y="y"
 z="z"
 
-exclude=[s,o,u,n,d,h,e]
-yellow=[t,4]#format : letter, letter index
-green=[0,0,a,r,0]
+exclude=[]
+yellow=[]#format : letter, letter index
+green=[0,0,0,0,0]
 possible=[]
 
 wordlist=open("wordlist.txt","r")
