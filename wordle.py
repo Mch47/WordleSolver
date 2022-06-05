@@ -28,8 +28,8 @@ z="z"
 exclude=[]
 yellow=[]#format : letter, letter index
 green=[0,0,0,0,0]
-possible=[]
 
+possible=[]
 wordlist=open("wordlist.txt","r")
 rawwordlist=wordlist.read()
 wordlist.close()
